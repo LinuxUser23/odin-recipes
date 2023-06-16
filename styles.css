@@ -1,0 +1,48 @@
+body {
+    font-family: Helvetica, Times, serif;
+    text-align: center;
+}
+
+
+.main {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+
+.main-list {
+    list-style: none;
+    font-size: 24px;
+}
+
+h1 {
+    font-size:  32px;
+}
+
+.header {
+   font-size: 26px;
+   text-align: left; 
+}
+
+
+img {
+    width: 400px;
+    height: auto;
+}
+
+
+.text {
+    text-align: left;
+    font-size: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+.list {
+    font-family: Verdana, sans-serif;
+    text-align: left;
+    font-size: 18px;
+}
+
