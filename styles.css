@@ -1,13 +1,13 @@
 * {
     font-family: Helvetica, Times, serif;
-    text-align: center;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 
 .main {
+    box-sizing: border-box;
+    text-align: center;
     font-size: 48px;
     font-weight: bold;
     margin: 150px auto;
@@ -43,25 +43,41 @@ a:hover {
     color: red;
 }
 
+.container {
+    margin: 10px auto;
+    padding: 5px;
+}
+
 h1 {
-    font-size:  32px;
+    font-size: 32px;
+    padding: 8px;
+    margin-bottom: 5px;
+    font-weight: bold;
 }
-
-.header {
-   font-size: 26px;
-   text-align: left; 
-}
-
 
 img {
     width: 400px;
     height: auto;
+    margin: 5px;
+    padding: 10px;
 }
 
+.header {
+    font-size: 24px;
+    font-weight: 500;
+    padding: 5px;
+    margin: 8px;
+    display: inline-block;
+    border: 3px solid red;
+    border-radius: 50%;
 
+ }
+ 
 .text {
     text-align: left;
-    font-size: 20px;
+    font-size: 18px;
+    padding: 2px;
+    white-space: pre;
 }
 
 ul {
@@ -70,7 +86,13 @@ ul {
 
 .list {
     font-family: Verdana, sans-serif;
-    text-align: left;
-    font-size: 18px;
+    margin: 15px;
+    padding: 5px;
+    white-space: pre-wrap;
 }
 
+.grocery-items {
+    font-size: 18px;
+    padding: 3px;
+    margin-top: 5px auto;
+}
